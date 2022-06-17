@@ -1,4 +1,7 @@
 'use strict';
+
+const { FOREIGNKEYS } = require("sequelize/types/query-types");
+
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('clientes', {
@@ -19,6 +22,15 @@ module.exports = {
       },
       email: {
         type: Sequelize.STRING
+      },
+      idReserva: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'reservas',
+          key: 'id'
+        },
+        onUpdate: 'CASCADE',
+        onDelete: 'CASCADE'
       },
       createdAt: {
         allowNull: false,
