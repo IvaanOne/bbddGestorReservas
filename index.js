@@ -20,7 +20,7 @@ app.get('/',(req, res) => res.send('Bienvenidos a la API REST'));
 
 // definimos puerto
 let fecha = new Date();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT,()=>console.log(colors.rainbow(`La API está levantada en el puerto ${PORT} -- ${fecha}`)));
 
 
