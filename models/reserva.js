@@ -6,10 +6,10 @@ module.exports = (sequelize, DataTypes) => {
   class reserva extends Model {
     static associate(models) {
       // define association here
-      movie.belongsTo(models.hotel, {
+      reserva.belongsTo(models.hotel, {
         foreignKey: 'idHotel'
       });
-      movie.belongsTo(models.cliente, {
+      reserva.belongsTo(models.cliente, {
         foreignKey: 'idCliente'
       });
     }
