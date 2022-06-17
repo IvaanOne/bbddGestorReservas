@@ -2,7 +2,7 @@
 
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('hotel', [{
+    await queryInterface.bulkInsert('hotels', [{
       "hotelName": "Glushkovo",
       "createdAt": "2021-08-17 15:38:48",
       "updatedAt": "2021-09-13 14:04:46"
@@ -209,7 +209,7 @@ module.exports = {
 
   async down (queryInterface, Sequelize) {
  
-     await queryInterface.bulkDelete('hotel', null, {});
+     await queryInterface.bulkDelete('hotels', null, {});
      
   }
 };

@@ -3,7 +3,7 @@
 module.exports = {
   async up (queryInterface, Sequelize) {
 
-    await queryInterface.bulkInsert('reserva', [{
+    await queryInterface.bulkInsert('reservas', [{
       "fechaEntrada": "2021-11-17 06:24:18",
       "fechaSalida": "2022-05-02 16:24:30",
       "importe": 369,
@@ -309,7 +309,7 @@ module.exports = {
 
   async down (queryInterface, Sequelize) {
 
-     await queryInterface.bulkDelete('reserva', null, {});
+     await queryInterface.bulkDelete('reservas', null, {});
 
   }
 };

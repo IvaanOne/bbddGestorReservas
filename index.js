@@ -4,6 +4,8 @@ const colors = require('colors');
 const morgan = require('morgan');
 const logger = require('./config/winston');
 
+require('dotenv').config();
+
 // inicializamos la app
 const app = express();
 app.use(express.json());
