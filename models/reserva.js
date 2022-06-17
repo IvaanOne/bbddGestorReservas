@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: 'hotelName'
       });
       movie.belongsTo(models.cliente, {
-        foreignKey: 'clientName'
+        foreignKey: 'id'
       });
     }
   }
