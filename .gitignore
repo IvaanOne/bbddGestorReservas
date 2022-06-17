@@ -4,3 +4,4 @@ logs/
 routes
 .env
 config.json
+.env
