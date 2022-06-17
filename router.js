@@ -1,12 +1,11 @@
 
-const MovieRouter = require('./routes/movieRoutes');
-let router = require('express').Router();
+const router = require('express').Router();
+
+// Importando Routes
+const ReservaRouter = require('./views/ReservaRoutes');
 
 // Rutas
-router.use('/movies', MovieRouter);
-
-// añadir router de salas si ya tengo el de pelis
-// definir salarouter salacontroller sala model
+router.use('/reservas', ReservaRouter);
 
 module.exports = router;
 
