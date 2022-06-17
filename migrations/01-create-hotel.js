@@ -11,15 +11,6 @@ module.exports = {
       hotelName: {
         type: Sequelize.STRING
       },
-      idReserva: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: 'reservas',
-          key: 'id'
-        },
-        onUpdate: 'CASCADE',
-        onDelete: 'CASCADE'
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

@@ -7,10 +7,10 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       movie.belongsTo(models.hotel, {
-        foreignKey: 'idReserva'
+        foreignKey: 'idHotel'
       });
       movie.belongsTo(models.cliente, {
-        foreignKey: 'idReserva'
+        foreignKey: 'idCliente'
       });
     }
   }

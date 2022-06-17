@@ -17,6 +17,24 @@ module.exports = {
       importe: {
         type: Sequelize.INTEGER
       },
+      idHotel: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'hotels',
+          key: 'id'
+        },
+        onUpdate: 'CASCADE',
+        onDelete: 'CASCADE'
+      },
+      idCliente: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'clientes',
+          key: 'id'
+        },
+        onUpdate: 'CASCADE',
+        onDelete: 'CASCADE'
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
