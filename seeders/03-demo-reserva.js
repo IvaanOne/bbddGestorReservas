@@ -7,102 +7,136 @@ module.exports = {
       "fechaEntrada": "2021-11-17 06:24:18",
       "fechaSalida": "2022-05-02 16:24:30",
       "importe": 369,
+      "idHotel": 1,
+      "idCliente": 1,
       "createdAt": "2022-06-06 22:20:14",
       "updatedAt": "2021-06-16 11:26:59"
     }, {
       "fechaEntrada": "2021-12-11 05:18:23",
       "fechaSalida": "2022-04-16 23:35:18",
       "importe": 210,
+      "idHotel": 11,
+      "idCliente": 11,
       "createdAt": "2022-03-23 18:44:10",
       "updatedAt": "2022-03-16 23:51:31"
     }, {
       "fechaEntrada": "2021-08-28 15:53:51",
       "fechaSalida": "2021-10-04 17:48:11",
       "importe": 118,
+      "idHotel": 21,
+      "idCliente": 21,
       "createdAt": "2022-02-17 22:06:56",
       "updatedAt": "2022-04-17 20:15:47"
     }, {
       "fechaEntrada": "2022-06-07 03:09:46",
       "fechaSalida": "2021-07-01 11:15:09",
       "importe": 418,
+      "idHotel": 31,
+      "idCliente": 31,
       "createdAt": "2021-10-01 17:10:41",
       "updatedAt": "2022-01-26 04:49:54"
     }, {
       "fechaEntrada": "2022-01-18 15:42:28",
       "fechaSalida": "2021-09-16 01:13:10",
       "importe": 379,
+      "idHotel": 41,
+      "idCliente": 41,
       "createdAt": "2022-05-02 20:18:00",
       "updatedAt": "2022-05-30 00:23:31"
     }, {
       "fechaEntrada": "2022-03-03 03:54:27",
       "fechaSalida": "2022-01-04 03:07:37",
       "importe": 388,
+      "idHotel": 51,
+      "idCliente": 51,
       "createdAt": "2021-11-17 18:23:32",
       "updatedAt": "2021-10-30 06:24:40"
     }, {
       "fechaEntrada": "2022-01-16 12:22:47",
       "fechaSalida": "2021-08-20 08:46:04",
       "importe": 380,
+      "idHotel": 61,
+      "idCliente": 61,
       "createdAt": "2022-03-19 02:17:39",
       "updatedAt": "2021-09-21 15:46:45"
     }, {
       "fechaEntrada": "2021-09-08 18:30:08",
       "fechaSalida": "2022-01-24 11:00:10",
       "importe": 401,
+      "idHotel": 71,
+      "idCliente": 71,
       "createdAt": "2022-01-18 11:32:45",
       "updatedAt": "2021-09-06 05:02:58"
     }, {
       "fechaEntrada": "2021-12-09 14:08:15",
       "fechaSalida": "2021-07-01 01:44:39",
       "importe": 344,
+      "idHotel": 81,
+      "idCliente": 81,
       "createdAt": "2022-04-04 04:26:17",
       "updatedAt": "2021-11-29 15:03:33"
     }, {
       "fechaEntrada": "2022-03-23 12:57:26",
       "fechaSalida": "2021-12-18 12:33:12",
       "importe": 203,
+      "idHotel": 91,
+      "idCliente": 91,
       "createdAt": "2022-04-03 23:11:27",
       "updatedAt": "2021-06-19 17:54:42"
     }, {
       "fechaEntrada": "2021-09-19 01:21:28",
       "fechaSalida": "2021-08-19 02:11:30",
       "importe": 138,
+      "idHotel": 11,
+      "idCliente": 1,
       "createdAt": "2021-12-14 23:29:29",
       "updatedAt": "2022-04-10 12:05:28"
     }, {
       "fechaEntrada": "2022-06-14 15:24:40",
       "fechaSalida": "2022-01-17 02:25:39",
       "importe": 423,
+      "idHotel": 21,
+      "idCliente": 1,
       "createdAt": "2022-01-31 09:04:20",
       "updatedAt": "2022-02-02 23:07:19"
     }, {
       "fechaEntrada": "2022-01-03 01:41:31",
       "fechaSalida": "2022-06-05 22:08:48",
       "importe": 308,
+      "idHotel": 41,
+      "idCliente": 1,
       "createdAt": "2021-10-09 21:59:33",
       "updatedAt": "2022-03-11 21:08:09"
     }, {
       "fechaEntrada": "2021-07-06 18:30:59",
       "fechaSalida": "2021-08-06 10:21:15",
       "importe": 279,
+      "idHotel": 21,
+      "idCliente": 1,
       "createdAt": "2021-08-07 07:41:44",
       "updatedAt": "2022-06-08 11:31:33"
     }, {
       "fechaEntrada": "2022-03-06 13:39:12",
       "fechaSalida": "2021-08-21 18:14:17",
       "importe": 320,
+      "idHotel": 11,
+      "idCliente": 11,
       "createdAt": "2021-06-17 15:15:50",
       "updatedAt": "2022-02-28 20:00:53"
     }, {
       "fechaEntrada": "2022-05-20 21:23:27",
       "fechaSalida": "2021-12-08 02:32:15",
       "importe": 299,
+      "idHotel": 21,
+      "idCliente": 11,
       "createdAt": "2022-06-07 04:43:53",
       "updatedAt": "2022-01-02 08:10:42"
     }, {
       "fechaEntrada": "2021-12-30 09:34:47",
       "fechaSalida": "2021-12-22 21:54:32",
       "importe": 389,
+      "idHotel": 31,
+      "idCliente": 11,
       "createdAt": "2021-12-11 23:02:55",
       "updatedAt": "2022-04-11 08:05:10"
     }, {
