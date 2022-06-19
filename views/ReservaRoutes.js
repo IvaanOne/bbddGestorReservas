@@ -14,7 +14,4 @@ router.get('/hotel/:hotelName', ReservaController.getByHotel);
 router.get('/fechaEntrada', ReservaController.getByFechaE);
 router.get('/fechaSalida', ReservaController.getByFechaS);
 
-
-
-
 module.exports = router;
