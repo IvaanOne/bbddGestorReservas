@@ -22,18 +22,31 @@ Base de datos MySQL relacional para proyecto en geekshubs.
 ## Endpoints
 
 * /Reservas para recibir toda la información disponible sobre las reservas.
+
 <br>
+
 * /Reservas/(numero de id) para buscar una reserva a través de su id.
+
 <br>
+
 * /Reservas/cliente/(NombreCliente) para buscar tantas reservas como haya hecho el nombre del cliente si existiera. 
+
 <br>
 
 * /Reservas/telefono/(numerotelefono) para buscar reservas filtrándolas por número de teléfono.
+
 <br>
+
 * /Reservas/email/(email) para buscar reservas filtrándolas por el email de la reserva.
+
 <br>
+
 * /Reservas/hotel/(nombreHotel) para buscar reservas filtrando por el nombre del hotel.
+
 <br>
+
 * /Reservas/FechaE/(Fecha de entrada) para buscar reservas filtrando por la fecha de entrada de la reserva.
+
 <br>
+
 * /Reservas/FechaS/(Fecha de Salida) para buscar reservas filtrando por la fecha de salida de la reserva.
